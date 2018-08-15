@@ -1,0 +1,94 @@
+body{
+    /*background-color:#efeee7;*/
+    background-color: black;
+    font-family: "Georgia",Times New Roman,Times,serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+.container{
+    width:1024px;/*Set a width before attempting center*/
+    margin:0 auto;/*Center Left and Right margin*/
+   /*margin:auto auto;*//*Why doesn't this center horizontally and vertically*/
+    padding:0;
+    background-color:#efeee7;
+    /*border:1px solid yellow;*/
+    /********************************/
+    /*VERTICALLY ALIGN CONTATINERS IN 3 STEPS:
+    http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/*/
+    /********************************/
+    /*Step 1 of 3: Relative Postion:
+    /********************************/
+    /*The relative value for the position property allows elements 
+    to appear within the normal flow a page, leaving space for an 
+    element as intended while not allowing other elements to flow 
+    around it; however, it also allows an element’s display position 
+    to be modified with the box offset properties.*/
+    position: relative;
+    /********************************/
+    /*Step 2 of 3: Set Element Top position*/
+    /********************************/
+    top: 25%;
+    /********************************/
+    /*Step 3 of 3: TransformY:
+    /********************************/
+    /*Allows you to align the text vertically*/
+    transform: translateY(25%);
+    -ms-transform:translateY(25%);
+    -webkit-transform:translateY(25%);
+    /********************************/
+}
+header{
+    background-color:#333333;
+}
+footer{
+    clear:both;/*In order to encapsulate float elements, clear the float*/
+    height:100px;
+}
+h1{
+    color:#eee;
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 0;
+    margin-top:0;/*Remove top margin because it is a block element*/
+}
+#main-bio, #contact-info, #bio-image{
+    float:left;
+}
+#bio-image{
+    width:200px;
+    margin-left:10px;
+    margin-right:15px;
+}
+#main-bio{
+    box-sizing:border-box;
+    width:70%;
+    margin:0 auto;
+   /* background-color:green;
+    border:1px solid black;*/
+    padding-left:50px;
+    padding-right:50px;
+}
+#contact-info{
+    box-sizing:border-box;
+    width:30%;
+    height:270px;
+    padding-right:25px;
+   
+}
+a{
+    color:#d21034;
+}
+h3{
+    margin-left:10px;
+    font-size:22px;
+}
+h4{
+    display:inline;/*A heading is a block level element, mk inline*/
+    font-size:18px;
+    font-weight:bold;
+}
+li, p{
+    font-size:16px;
+}
