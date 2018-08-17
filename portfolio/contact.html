@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Tony Lockhart">
+    <meta name="description" content="Tony Lockhart's online portfolio">
+    <meta name="keywords" content="tony, lockhart, atlanta, georgia tech, research, web developer, full stack, developer, java, design, games, development, instructor, lecturer, animation, animator">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+                <nav>
+                    <h1>Tony Lockhart</h1>
+                    <ul>
+                        <li>
+                            <a href="index.html">About</a>
+                            <span class="divider">|</span>
+                        </li>
+                        <!--comment
+                                -->
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                            <span class="divider">|</span>
+                        </li>
+                        <!--comment
+                                -->
+                        <li>
+                            <a href="contact.html">Contact</a>
+                            <!--span class="divider">|</span-->
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <main>
+            <div class="main-content clearfix">
+                <h2>Contact</h2>
+                <hr>
+                <form class="contentTopMargin">
+                    <fieldset class="contact-group">
+                        <!--action="/login" method="post">-->
+                        <label for="name">Name&nbsp;
+                            <!--Input Element used to obtain a single line of text-->
+                            <input type="text" name="name" id="name" value="John Smith">
+                        </label>
+                        <label for="email">Email&nbsp;
+                            <input type="email" name="email" id="email" value="example@gmail.com">
+                        </label>
+                        <label for="message">Message&nbsp;
+                            <!--Used to obtain multiple lines of text. Style using W and H in CSS-->
+                            <textarea name="message" id="message"></textarea>
+                        </label>
+                    </fieldset>
+                    <input class="btn-properties" type="submit" name="submit" value="Submit">
+                    <br>
+                </form>
+            </div>
+        </main>
+    </div>
+    <!--Container-->
+    <footer>
+        <div class="stripe"></div>
+        <p>Copyright &copy;</p>
+    </footer>
+</body>
+
+</html>

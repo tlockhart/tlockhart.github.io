@@ -1,0 +1,11 @@
+Padding around name (h1) 30px
+
+Top gray 40px (margin-top 40px removed from main-content and placed in main element)
+Top White Gutter 40px.(h2 padding-top 40px)
+Left White Gutter 30px. (main padding 0px 30px)
+Padding around section title (h2 padding-top 40px 30px 30px 30px))
+Bottom White Padding 30px (main padding-bottom:30px)
+Bottom Gray Gutter 40px.(margin-bottom:40px removed from main-content and placed in main element)
+
+007F79
+
